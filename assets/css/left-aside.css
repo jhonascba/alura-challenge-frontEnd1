@@ -1,0 +1,32 @@
+.left-aside {
+    grid-area: left-aside;
+    height: 100vh;
+    width: 25vw;
+}
+
+.left-aside__nav {
+    margin-left: 1.5rem;
+}
+
+.left-aside__nav__title {
+    letter-spacing: var(--title-letter-spacing);
+    margin-bottom: 1rem;
+    font-size: var(--title-font-size);
+    text-transform: uppercase;
+}
+
+/* .left-aside__nav__list {
+
+} */
+
+.left-aside__nav__list__link {
+    margin-bottom: 1rem;
+}
+
+.left-aside__nav__list__link:hover {
+    color: var(--hover-font-color);
+}
+
+.fa-solid, .fa-code {
+    margin-right: 10px;
+}

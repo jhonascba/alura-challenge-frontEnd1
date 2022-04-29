@@ -1,0 +1,49 @@
+.header {
+    font-family: 'Inter', sans-serif;
+    grid-area: header;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.header__divLogo {
+    width: 25vw;
+}
+
+.header__divLogo__logo {
+    width: 75%;
+    max-width: 300px;
+}
+
+.header__input {
+    height: 3rem;
+    width: 50vw;
+    max-width: 900px;
+    border: none;
+    border-radius: var(--input-border-radius);
+    background-color: var(--input-bg-color);
+    color: var(--general-font-color);
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.header__divProfile {
+    display: flex;
+    width: 25vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__divProfile__picture {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.header__divProfile__name {
+    margin-right: 3rem;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/left-aside.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/right-aside.css" />
+    <title>Alura Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/240c313384.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__divLogo">
+        <img
+          src="./assets/img/logo.png"
+          alt="Logo Alura Dev"
+          class="header__divLogo__logo"
+        />
+      </div>
+      <input placeholder="Busque por algo" type="text" class="header__input" />
+      <div class="header__divProfile">
+        <img
+          src="./assets/img/profile.jpg"
+          alt="Foto de perfil"
+          class="header__divProfile__picture"
+        />
+        <div class="header__divProfile__name">John Doe</div>
+      </div>
+    </header>
+    <aside class="left-aside">
+      <nav class="left-aside__nav">
+        <h2 class="left-aside__nav__title">menu</h2>
+        <ul class="left-aside__nav__list">
+          <li class="left-aside__nav__list__link">
+            <a href="#"><i class="fa-solid fa-code"></i>Editor de código</a>
+          </li>
+          <li class="left-aside__nav__list__link">
+            <a href="#"><i class="fa-solid fa-user-group"></i>Comunidade</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main">
+      <section>
+        
+      </section>
+    </main>
+    <aside class="right-aside">
+      <section>
+        <form class="right-aside__form">
+          <div class="right-aside__form__div">
+            <h2 class="right-aside__form__div__title">Seu projeto</h2>
+            <input
+              class="right-aside__form__div__input"
+              type="text"
+              placeholder="Nome do seu projeto"
+            />
+            <textarea
+              placeholder="Descrição do seu projeto"
+              class="right-aside__form__div__text-area"
+              name="description"
+              id="project-description"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="right-aside__form__div">
+            <h2 class="right-aside__form__div__title">Personalização</h2>
+            <select
+              class="right-aside__form__div__select"
+              name="language-picker"
+              id="language-picker"
+            >
+              <option value="javaScript">JavaScript</option>
+              <option value="css">CSS</option>
+              <option value="html">HTML</option>
+            </select>
+            <input class="right-aside__form__div__color-picker" type="color" value="#6BD1FF">
+            <button class="right-aside__form__div__button" type="submit">
+              Salvar projeto
+            </button>
+          </div>
+        </form>
+      </section>
+    </aside>
+  </body>
+</html>

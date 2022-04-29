@@ -1,0 +1,26 @@
+:root {
+    --bg-color: #051D3B;
+    --general-font-color: #8d98a5;
+    --hover-font-color: #FFFFFF;
+
+    --input-bg-color: rgba(255, 255, 255, 0.16);
+    --input-border-radius: 5px;
+    
+    --title-letter-spacing: 5px;
+    --title-font-size: 0.9rem;
+
+    --button-color: #5081FB;
+    --button-hover: #7BA4FC;
+    --button-focus: #96B9FD;
+}
+
+.body {
+    display: grid;
+    grid-template-areas: "header header header"
+        "left-aside main right-aside";
+    grid-template-columns: 25vw 50vw 25vw;
+    background-color: var(--bg-color);
+    color:  var(--general-font-color);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
