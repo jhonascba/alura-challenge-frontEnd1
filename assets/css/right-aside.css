@@ -37,6 +37,7 @@
 .right-aside__form__div__text-area {
     font-family: 'Inter', sans-serif;
     font-size: var(--title-font-size);
+    font-weight: 300;
     border-radius: var(--input-border-radius);
     border: none;
     width: 100%;

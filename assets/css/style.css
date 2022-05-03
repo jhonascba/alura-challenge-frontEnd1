@@ -12,6 +12,9 @@
     --button-color: #5081FB;
     --button-hover: #7BA4FC;
     --button-focus: #96B9FD;
+
+    --code-bg-color: #141414;
+    --highlight-button-color: #0b254a;
 }
 
 .body {
